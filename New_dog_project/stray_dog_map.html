@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ad038dc6c5f8ec0f8585b286456508d0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ad038dc6c5f8ec0f8585b286456508d0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ad038dc6c5f8ec0f8585b286456508d0 = L.map(
+                "map_ad038dc6c5f8ec0f8585b286456508d0",
+                {
+                    center: [8.713484720672636, 77.75570836654744],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4c6704533beba1054c6a4e79bbc911fe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4c6704533beba1054c6a4e79bbc911fe.addTo(map_ad038dc6c5f8ec0f8585b286456508d0);
+        
+    
+            var circle_marker_a36685258f54d9df6ebecda8a10f0c89 = L.circleMarker(
+                [8.719304996820732, 77.74825898034807],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
+            ).addTo(map_ad038dc6c5f8ec0f8585b286456508d0);
+        
+    
+        var popup_f60154902cde4f507347d633363e1c26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0055406d7c00da00758d4f3de821a65b = $(`<div id="html_0055406d7c00da00758d4f3de821a65b" style="width: 100.0%; height: 100.0%;">Palayamkottai: 8 dogs</div>`)[0];
+                popup_f60154902cde4f507347d633363e1c26.setContent(html_0055406d7c00da00758d4f3de821a65b);
+            
+        
+
+        circle_marker_a36685258f54d9df6ebecda8a10f0c89.bindPopup(popup_f60154902cde4f507347d633363e1c26)
+        ;
+
+        
+    
+    
+            var circle_marker_27aa4e0125174d9ae74a43ecff795dcd = L.circleMarker(
+                [8.70900785394517, 77.75494274054408],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 60, "stroke": true, "weight": 3}
+            ).addTo(map_ad038dc6c5f8ec0f8585b286456508d0);
+        
+    
+        var popup_1bcc8093d0d02d25c1fcfe48aefdcf14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42347d8731681cabb9bb49612364e287 = $(`<div id="html_42347d8731681cabb9bb49612364e287" style="width: 100.0%; height: 100.0%;">Vannarapettai: 12 dogs</div>`)[0];
+                popup_1bcc8093d0d02d25c1fcfe48aefdcf14.setContent(html_42347d8731681cabb9bb49612364e287);
+            
+        
+
+        circle_marker_27aa4e0125174d9ae74a43ecff795dcd.bindPopup(popup_1bcc8093d0d02d25c1fcfe48aefdcf14)
+        ;
+
+        
+    
+    
+            var circle_marker_ea1b1508f7266b8053d92e7d18348dd9 = L.circleMarker(
+                [8.711722997522426, 77.75693707658118],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25, "stroke": true, "weight": 3}
+            ).addTo(map_ad038dc6c5f8ec0f8585b286456508d0);
+        
+    
+        var popup_d48692f27e6ec66adf10fb5a359d4c45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a635832efa32c78ba3df72a9b476906 = $(`<div id="html_6a635832efa32c78ba3df72a9b476906" style="width: 100.0%; height: 100.0%;">Perumalpuram: 5 dogs</div>`)[0];
+                popup_d48692f27e6ec66adf10fb5a359d4c45.setContent(html_6a635832efa32c78ba3df72a9b476906);
+            
+        
+
+        circle_marker_ea1b1508f7266b8053d92e7d18348dd9.bindPopup(popup_d48692f27e6ec66adf10fb5a359d4c45)
+        ;
+
+        
+    
+    
+            var circle_marker_550c380a7250a69b066f7eade6daadc9 = L.circleMarker(
+                [8.717861800943457, 77.75539314091003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_ad038dc6c5f8ec0f8585b286456508d0);
+        
+    
+        var popup_6dd79db748238fd951300be7d6938024 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ea54806eba0466dd91564bd3747770d = $(`<div id="html_1ea54806eba0466dd91564bd3747770d" style="width: 100.0%; height: 100.0%;">NGO Colony: 3 dogs</div>`)[0];
+                popup_6dd79db748238fd951300be7d6938024.setContent(html_1ea54806eba0466dd91564bd3747770d);
+            
+        
+
+        circle_marker_550c380a7250a69b066f7eade6daadc9.bindPopup(popup_6dd79db748238fd951300be7d6938024)
+        ;
+
+        
+    
+    
+            var circle_marker_4b25c6ba20576ea95782c252e2a53f88 = L.circleMarker(
+                [8.709525954131397, 77.76300989435386],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 75, "stroke": true, "weight": 3}
+            ).addTo(map_ad038dc6c5f8ec0f8585b286456508d0);
+        
+    
+        var popup_7bb524dba9b87fae3c34cf7462ae716a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f05b9c68ec4613e03047d2cded31fb8 = $(`<div id="html_5f05b9c68ec4613e03047d2cded31fb8" style="width: 100.0%; height: 100.0%;">Melapalayam: 15 dogs</div>`)[0];
+                popup_7bb524dba9b87fae3c34cf7462ae716a.setContent(html_5f05b9c68ec4613e03047d2cded31fb8);
+            
+        
+
+        circle_marker_4b25c6ba20576ea95782c252e2a53f88.bindPopup(popup_7bb524dba9b87fae3c34cf7462ae716a)
+        ;
+
+        
+    
+</script>
+</html>
