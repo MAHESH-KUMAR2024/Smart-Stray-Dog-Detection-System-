@@ -6,8 +6,8 @@ Smart Stray Dog Detection System
 An AI + Community Web Application platform for detecting, reporting, and managing stray dogs in urban areas.
 The system integrates Computer Vision (YOLO-based detection) with a Web Application that enables reporting, donations, and adoptions — bridging the gap between citizens and municipal authorities.
 
-📌 System Architecture
-1. Community Engagement Platform (Left side – Purple box)
+# 📌 System Architecture
+# 1. Community Engagement Platform (Left side – Purple box)
 
 This is the user-facing part of the system, mainly via a Web Application.
 It includes:
@@ -22,7 +22,7 @@ It includes:
 
 👉 Purpose: Creates a bridge between the community (citizens) and the system.
 
-2. Surveillance and Detection Module (Top Right – Blue box)
+# 2. Surveillance and Detection Module (Top Right – Blue box)
 
 This is the core detection system where computer vision works.
 
@@ -36,7 +36,7 @@ This is the core detection system where computer vision works.
 
 👉 Purpose: Automatically detect stray dogs from surveillance cameras and alert authorities.
 
-3. Data Storage and Management (Green box)
+# 3. Data Storage and Management (Green box)
 
 This is the backend data handling system.
 
@@ -46,7 +46,7 @@ This is the backend data handling system.
 
 👉 Purpose: Acts as the central brain that stores and analyzes all data.
 
-4. Notification and Communication Module (Orange box)
+# 4. Notification and Communication Module (Orange box)
 
 Handles communication with users and authorities.
 
@@ -54,7 +54,7 @@ Handles communication with users and authorities.
 
 👉 Purpose: Keeps all stakeholders updated in real time.
 
-5. Municipal Authorities (Right side – Pink box)
+# 5. Municipal Authorities (Right side – Pink box)
 
 This is the external stakeholder who gets alerts whenever a stray dog is detected.
 
